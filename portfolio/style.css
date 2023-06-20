@@ -384,8 +384,21 @@ margin-bottom: 20px;
     align-items: center;
     justify-content: center;
     font-size: 80px;
+    z-index: -1;
 }
 
+.fa-spinner {
+animation:spinner 750ms infinite linear;
+}
+@keyframes spinner {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
 
 /*
 
