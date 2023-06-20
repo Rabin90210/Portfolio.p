@@ -402,7 +402,7 @@ margin-bottom: 20px;
 }
 
 
-animation:spinner 750ms infinite linear;
+.animation:spinner 750ms infinite linear;
 }
 @keyframes spinner {
     0% {
