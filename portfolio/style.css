@@ -373,8 +373,8 @@ margin-bottom: 20px;
     border-color: #f06449;
     color: #f06449;
 }
-.modal__overlay--loading {
-    background-color: blue;
+
+.modal__overlay {
     position: absolute;
     top: 0;
     left:0;
@@ -383,11 +383,24 @@ margin-bottom: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.modal__overlay--loading {
+    background-color: #242424;
     font-size: 80px;
     z-index: -1;
 }
 
-.fa-spinner {
+.modal__overlay--success {
+    background-color: #4bb543;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    padding: 28px;
+
+}
+
+
 animation:spinner 750ms infinite linear;
 }
 @keyframes spinner {
