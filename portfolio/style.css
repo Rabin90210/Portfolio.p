@@ -415,7 +415,12 @@ animation:spinner 750ms infinite linear;
 
 
 .modal__exit {
-
+position: absolute;
+top: 30px;
+right:40px;
+color: #fff;
+font-size: 36px;
+z-index: 100;
 }
 
 
