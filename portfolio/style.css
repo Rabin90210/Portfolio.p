@@ -38,8 +38,21 @@ input, textarea {
     border-left: none;
     border-right: none;
     height: 40px;
-
 }
+
+textarea {
+    resize: vertical;
+    height: 100px;
+    margin-top: 12px;
+}
+
+
+
+label {
+font-size: 14px;
+font-weight: bold;
+}
+
 .container {
     padding: 50px 0;
     width: 100%;
@@ -263,6 +276,9 @@ MODAL
 .modal__half {
     width: 50%;
     padding: 40px 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .modal__about {
@@ -317,6 +333,7 @@ color: white;
 
 .modal__sub-title {
     margin: 12px 0 24px 0;
+    font-size: 14px;
 }
 
 .modal__para{
@@ -324,7 +341,30 @@ color: white;
     line-height: 1.75;
 }
 
+.form__item {
+margin-bottom: 20px;
+}
 
+.form__submit {
+    background-color: #f06449;
+    border: 2px solid #f06449;
+    color: white;
+    font-weight:700;
+    width: 100%;
+    max-width: 240px;
+    padding: 12px 24px;
+    font-size: 20px;
+}
+
+.form__submit:hover {
+    border-color: #fff;
+    background-color: transparent;
+}
+
+.form__submit:active {
+    border-color: #f06449;
+    color: #f06449;
+}
 /*
 
 PROJECTS
